@@ -12,3 +12,13 @@ p {
 p + p {
   background: tomato;
 }
+
+/* Comment réordonner les deux éléments seulement en css ? */
+
+p {
+  display: table-cell;
+}
+
+p + p {
+  display: table-caption;
+}
